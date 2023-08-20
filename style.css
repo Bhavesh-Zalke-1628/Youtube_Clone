@@ -189,10 +189,6 @@ nav{
     display: flex;
     gap: 70px;
 }
-/* #wrapper-first{
-    border-bottom: 5px solid grey;
-    width: 100%;
-} */
 #first{
     height: 100%;
     width: 30%;
@@ -202,7 +198,7 @@ nav{
 }
 #first .img{
     height: 12.5vw;
-    width: 21vw;
+    width: 20vw;
     border-radius: 10px;
     cursor: pointer;
 }
@@ -229,10 +225,14 @@ nav{
     border-bottom: 4px solid #000;
     border-radius: 5px;
 }
-.short-container{
+#short-wrapper{
+    display: flex;
+    flex-direction: column;
     height: 100vh;
     width: 150%;
-    /* background-color: gray; */
+    /* border: 2px solid red; */
+}
+.short-container{
     display: flex;
 }
 .short-item{
@@ -241,7 +241,7 @@ nav{
     background-color: red;
 }
 .short-img{
-    height: 50vh;
+    height: 45vh;
     width: 15vw;
     border-radius: 15px;
     padding: 10px;
@@ -252,9 +252,13 @@ nav{
     font-size: 17px;
     text-transform: capitalize;
 }
-
-
-
+#short-wrapper  #top{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin-right:33%;
+    margin-top: 25px;
+}
 /*mobile responsive  */
 
 @media (max-width:600px){
@@ -294,6 +298,9 @@ nav{
         top: 50px;
         left: 8px;
     }
+    .list li {
+    width: 10px;
+    }
     #none{
         display: none;
     }
@@ -315,7 +322,7 @@ nav{
         padding-left: 20vw;
     }
     #first .img{
-        height: 45vh;
+        height: 26vh;
         width: 90vw;
     }
     .text{
@@ -323,6 +330,7 @@ nav{
         display: flex;
         align-items: center;
         justify-content: space-between;
+        gap: 20px;
     }
     .text p {
         width: 80vw;
@@ -332,11 +340,13 @@ nav{
         border-radius: 50%;
     }
     .para{
-        width: 100px;
+        width: 150px;
     }
     .chenel{
-        width: 170px;
+        width: 200px;
+        margin-top: 10px;
         margin-right: 50vw;
+        margin-left: 20vw;
     }
     #wrapper-fotter{
         display: flex;
@@ -369,6 +379,9 @@ nav{
         flex-direction: column;
         flex-wrap: nowrap;
     }
+    #shr-display{
+        display: flex;
+    }
     .short-img{
         height: 35vh;
         width: 50vw;
@@ -379,5 +392,15 @@ nav{
         width: 50vw;
         margin-left: 12px;
         text-transform: capitalize;
-    } 
-}   
+    }
+    #short-wrapper #top{
+        display: flex;
+        margin-top: 120vh;
+        /* flex-direction: column; */
+    }
+    #shr-display{
+        display: flex;
+    }
+}
+
+
