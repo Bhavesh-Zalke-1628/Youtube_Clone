@@ -25,22 +25,44 @@ nav{
     background-color: #fff;
 }
 #menu-btn{
+    display: none;
+}
+#menu-btn{
     height: 70vw;
-    width: 15vw;
+    width: 14vw;
     position: absolute;
     left: 10px;
     background-color: #fff;
     padding: 10px 20px;
+    margin-top: 20px;
 }
-#one{
+.part{
     display: flex;
     flex-direction: column;
     gap: 2vh;
+    margin-top: 20px;
+    text-transform: capitalize;
     border-bottom:2px solid #000;
+    padding-bottom: 15px;
 }
-#one div{
+.part div{
     display: flex;
     gap: 3vw;
+}
+#your_chenel{
+    height: 25px;
+    width: 25px;
+}
+#three{
+    gap:10px;
+}
+#three img{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+#four {
+    border: none;
 }
 .first{
     display: flex;
@@ -48,9 +70,12 @@ nav{
     justify-content: space-between;
     gap: 2vw;
 }
-.first .menu{
+.first .top-menu{
     height: 3vh;
     width: 4vw;
+}
+.logo{
+    height: 3.5vh;
 }
 .middle{
     display: flex;
@@ -148,7 +173,6 @@ nav{
     position: static;
     margin-top: 5px;
     border-radius: 10px;
-    display: none;
 }
 #left:hover{
     cursor: pointer;
