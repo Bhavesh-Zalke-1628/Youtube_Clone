@@ -235,6 +235,9 @@ nav{
 .short-container{
     display: flex;
 }
+#shr-display{
+    display: flex;
+}
 .short-item{
     height: 100px;
     width: 100px;
@@ -260,7 +263,6 @@ nav{
     margin-top: 25px;
 }
 /*mobile responsive  */
-
 @media (max-width:600px){
     *{
         font-size: 19px;
@@ -277,8 +279,16 @@ nav{
     .search{
         display: none;
     }
+    .middle{
+        display: flex;
+        flex-direction: row-reverse;
+    }
     .search-btn{
-        background-color: green;
+        /* background-color: green; */
+        height: 35px;
+        width: 35px;
+        border: none;
+        border-radius: 50%;
     }
     .menu{
         height: 20px;
@@ -358,11 +368,12 @@ nav{
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 10px 30px;
+        padding: 10px 42px;
         gap: 22vw;
         border-top: 1.5px solid #000;
         background-color: #fff;
     }
+
     #short-head{
         position: relative;
         left: -20vw;
@@ -402,5 +413,3 @@ nav{
         display: flex;
     }
 }
-
-
