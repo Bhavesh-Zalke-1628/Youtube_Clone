@@ -450,9 +450,12 @@ nav{
         justify-content: space-between;
         flex-direction: column;
         flex-wrap: nowrap;
+        margin-left: 11vw;
     }
     #shr-display{
         display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .short-img{
         height: 35vh;
@@ -467,7 +470,7 @@ nav{
     }
     #short-wrapper #top{
         display: flex;
-        margin-top: 120vh;
+        margin-top: 130vh;
         /* flex-direction: column; */
     }
     #shr-display{
