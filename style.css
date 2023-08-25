@@ -201,30 +201,36 @@ nav{
     width: 90%;
 }
 .list{
-    height: 5vh;
+    height: 8vh;
     width: 100%;
     position: fixed;
-    top: 65px;
+    top: 50px;
     left: 10%;
     background-color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    /* justify-content: center; */
 }
 .list ul{
     display: flex;
     align-items: center;
+    gap: 3vw;
     justify-content: space-between;
     /* gap: 5px; */
 }
 .list ul li{
     height: 30px;
-    width: fit-content;
+    /* width: fit-content; */
     list-style: none;
     font-size: 16px;
     font-weight: 400;
     text-transform: capitalize;
-    border-radius: 15%;
+    border-radius: 1 5%;
     background-color:  #ebdddd73;
     text-align: center;
     padding:5px;
+    letter-spacing: -1px;
 }
 .list ul li:hover{ 
     background-color:#b7acac73;
