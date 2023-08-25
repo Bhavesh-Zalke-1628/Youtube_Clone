@@ -376,7 +376,7 @@ nav{
         left: 8px;
     }
     .list li {
-    width: 10px;
+        width: fit-content;
     }
     #none{
         display: none;
@@ -432,15 +432,27 @@ nav{
     }
     #footer{
         height: 8vh;
+        width: 100%;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 10px 42px;
-        gap: 22vw;
+        gap: 16vw;
         border-top: 1.5px solid #000;
         background-color: #fff;
     }
-
+    #footer #left{
+        height: 10vw;
+        width: 12vw;
+    }
+    
+    #footer #left:hover{
+        background-color: #f1f0f0;
+    }
+    #footer #left p{
+        font-weight: 400;
+        font-size: 13px;
+        letter-spacing: -1px;
+    }
     #short-head{
         position: relative;
         left: -20vw;
