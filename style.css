@@ -216,7 +216,7 @@ nav{
 }
 .list ul li{
     height: 30px;
-    width: 90px;
+    width: fit-content;
     list-style: none;
     font-size: 16px;
     font-weight: 400;
@@ -226,7 +226,7 @@ nav{
     text-align: center;
     padding:5px;
 }
-.list ul li:hover{
+.list ul li:hover{ 
     background-color:#b7acac73;
     cursor: pointer;
     font-weight: 600;
