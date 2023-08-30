@@ -223,14 +223,15 @@ nav{
     height: 30px;
     /* width: fit-content; */
     list-style: none;
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 19px;
+    font-weight: 600;
     text-transform: capitalize;
     border-radius: 1 5%;
     background-color:  #ebdddd73;
     text-align: center;
-    padding:5px;
+    padding:8px;
     letter-spacing: -1px;
+    border-radius: 7px;
 }
 .list ul li:hover{ 
     background-color:#b7acac73;
