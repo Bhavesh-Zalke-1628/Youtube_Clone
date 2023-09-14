@@ -18,3 +18,5 @@ menu.addEventListener("click",function(){
 page1_right.addEventListener("onmousemove",function(){
     menu_btn.style.width="-15vw";
 })
+
+function
